@@ -157,8 +157,10 @@ align-items:center;
 gap:12px;
 }
 
-.logo-mark{
-font-size:42px;
+.logo-mark img{
+height:70px;
+width:auto;
+display:block;
 }
 
 .logo-text h2{
