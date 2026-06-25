@@ -137,3 +137,135 @@ justify-content:center;
 border-radius:50%;
 text-decoration:none;
 }
+.hero{
+background:#071b3b;
+color:white;
+}
+
+.navbar{
+max-width:1300px;
+margin:auto;
+padding:25px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo-container{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo-mark{
+font-size:42px;
+}
+
+.logo-text h2{
+margin:0;
+color:#D4AF37;
+font-size:38px;
+}
+
+.logo-text span{
+font-size:13px;
+}
+
+.menu{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.btn-whatsapp-nav{
+background:#D4AF37;
+padding:12px 20px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+}
+
+.hero-container{
+max-width:1300px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:50px;
+padding:70px 30px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 20px;
+border:1px solid #D4AF37;
+border-radius:50px;
+color:#D4AF37;
+margin-bottom:25px;
+}
+
+.hero-left h1{
+font-size:62px;
+line-height:1.1;
+margin-bottom:25px;
+}
+
+.hero-left h1 span{
+color:#D4AF37;
+}
+
+.hero-left p{
+font-size:20px;
+max-width:650px;
+margin-bottom:30px;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+}
+
+.btn-gold{
+background:#D4AF37;
+padding:15px 30px;
+border-radius:10px;
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+.btn-outline{
+border:1px solid white;
+padding:15px 30px;
+border-radius:10px;
+color:white;
+text-decoration:none;
+}
+
+.hero-right img{
+width:100%;
+border-radius:25px;
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+}
+
+@media(max-width:900px){
+
+.hero-container{
+grid-template-columns:1fr;
+}
+
+.hero-left h1{
+font-size:42px;
+}
+
+.menu{
+display:none;
+}
+
+}
