@@ -158,7 +158,7 @@ gap:12px;
 }
 
 .logo-mark img{
-height:70px;
+height:95px;
 width:auto;
 display:block;
 }
@@ -268,6 +268,38 @@ font-size:42px;
 
 .menu{
 display:none;
+}
+
+}
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:60px 8%;
+background:white;
+}
+
+.stat-box{
+text-align:center;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.stat-box h3{
+color:#0f2d5c;
+font-size:24px;
+margin-bottom:10px;
+}
+
+.stat-box p{
+color:#666;
+}
+
+@media(max-width:900px){
+
+.stats{
+grid-template-columns:1fr 1fr;
 }
 
 }
